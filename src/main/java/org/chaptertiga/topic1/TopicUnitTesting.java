@@ -1,7 +1,6 @@
 package org.chaptertiga.topic1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class TopicUnitTesting {
@@ -43,7 +42,6 @@ public class TopicUnitTesting {
         jmlhGaLulus.add(gaLulus(listNilai2));
         jmlhGaLulus.add(gaLulus(listNilai3));
 
-        Integer index = jmlhGaLulus.indexOf(nilaiTertinggi(jmlhGaLulus)) + 1;
-        return index;
+        return jmlhGaLulus.indexOf(nilaiTertinggi(jmlhGaLulus)) + 1;
     }
 }
